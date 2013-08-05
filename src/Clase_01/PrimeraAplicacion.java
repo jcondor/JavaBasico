@@ -3,7 +3,7 @@ package Clase_01;
 public class PrimeraAplicacion {
 
     public static void main(String[] args) {
-        PrimeraAplicacion.ejercicio8();
+        PrimeraAplicacion.ejercicio7(7);
     }
 
     public static void ejercicio1() {
@@ -36,8 +36,8 @@ public class PrimeraAplicacion {
         System.out.println(resultado);
     }
 
-    public static void ejercicio7() {
-        int edad = 5;
+    public static void ejercicio7(int edad) {
+        
         int resultado = ((edad >= 0) && (edad < 18)) ? 15
                 : ((edad >= 18) && (edad < 60)) ? 0
                 : (edad >= 60) ? 30 : 0;
