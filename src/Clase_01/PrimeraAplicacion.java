@@ -50,7 +50,6 @@ public class PrimeraAplicacion {
         for (int i = 0; i < matriznumero.length; i++) {
             System.out.println(matriznumero[i]);
         }
-
     }
 
     public static void ejercicio8() {
@@ -59,6 +58,6 @@ public class PrimeraAplicacion {
         for (int i = 0; i < meses.length; i++) {
             System.out.println(meses[i]);
         }
-
     }
+
 }
