@@ -4,6 +4,10 @@ public class PrimeraAplicacion {
 
     public static void main(String[] args) {
         PrimeraAplicacion.ejercicio7(7);
+        PrimeraAplicacion.ejercicio7(17);
+        PrimeraAplicacion.ejercicio7(18);
+        PrimeraAplicacion.ejercicio7(59);
+        PrimeraAplicacion.ejercicio7(60);
     }
 
     public static void ejercicio1() {
