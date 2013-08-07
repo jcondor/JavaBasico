@@ -8,6 +8,7 @@ public class PrimeraAplicacion {
         PrimeraAplicacion.ejercicio7(18);
         PrimeraAplicacion.ejercicio7(59);
         PrimeraAplicacion.ejercicio7(60);
+        ejerciciomatriz();
     }
 
     public static void ejercicio1() {
