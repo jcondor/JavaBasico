@@ -11,7 +11,13 @@ package Clase02.Aula.Objetos;
 public class Zoologico {
     
     public static void main(String[] args) {
-        
+       Zoologico.doHerencia(); 
+       Tigre Tiger = new Tigre();
+       Tiger.setNumeropatas(4);
+       System.out.println(Tiger.getNumeropatas());
     }
-   
+    
+    public static void doHerencia() {
+        System.out.println("Zoologico");
+    }
 }
