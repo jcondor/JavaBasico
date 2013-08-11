@@ -1,4 +1,4 @@
-package Clase_01;
+package Clase01;
 
 public class PrimeraAplicacion {
 

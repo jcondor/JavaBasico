@@ -2,13 +2,16 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package Clase_02.Aula.Objetos;
+package Clase02.Aula.Objetos;
 
 /**
  *
  * @author PFR
  */
-public class Animal {
+public class Zoologico {
     
-    
+    public static void main(String[] args) {
+        
+    }
+   
 }
