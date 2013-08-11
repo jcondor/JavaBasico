@@ -9,8 +9,7 @@ package Clase02.Aula.Objetos;
  * @author PFR
  */
 public class Animal {
-    
-    
+        
     private int numeropatas;
 
     public int getNumeropatas() {
