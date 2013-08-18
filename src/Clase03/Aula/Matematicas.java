@@ -13,6 +13,7 @@ public class Matematicas {
     public static void main(String[] Args) {
         Matematicas.getConsttants();
         System.out.println(Matematicas.doOperaciones());
+        Matematicas.wrappers();
     }
     
     public static void getConsttants() {
@@ -22,4 +23,11 @@ public class Matematicas {
     public static double doOperaciones() {
         return Math.sqrt(144);
     }
+    
+    public static void wrappers() {
+        Integer entero = new Integer(122223);
+        
+        System.out.println(entero.shortValue());
+    }
+    
 }
