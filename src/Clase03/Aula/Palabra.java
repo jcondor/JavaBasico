@@ -20,12 +20,12 @@ public class Palabra implements Capitalizable {
     
     @Override
     public String cambiaMayuscula() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+       return texto.toUpperCase(); 
     }
 
     @Override
     public String cambiaMinuscula() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return texto.toLowerCase();
     }
     
 }
