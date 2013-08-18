@@ -4,16 +4,23 @@
  */
 package Clase03.Aula;
 
+import java.text.ParseException;
+import librerias.Utiles;
+
 /**
  *
  * @author PFR
  */
 public class Matematicas {
     
-    public static void main(String[] Args) {
+    public static void main(String[] Args) throws ParseException {
         Matematicas.getConsttants();
         System.out.println(Matematicas.doOperaciones());
         Matematicas.wrappers();
+        
+        
+        System.out.println(Utiles.stringToDate("Holña"));
+        
     }
     
     public static void getConsttants() {
@@ -30,4 +37,5 @@ public class Matematicas {
         System.out.println(entero.shortValue());
     }
     
+        
 }
