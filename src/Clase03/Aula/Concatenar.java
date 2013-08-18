@@ -14,6 +14,7 @@ public class Concatenar {
         Concatenar.Concatenando();
         Concatenar.Extraccion();
         Concatenar.Reemplazo();
+        Concatenar.Sbuffer();
     }
     
     public static void Concatenando() {
@@ -45,5 +46,15 @@ public class Concatenar {
      public static void Reemplazo () {
          String texto = "java permite crear java applets, javabeans y java servlets";
          System.out.println(texto.replaceAll("java","JAVA"));				
+     }
+     
+     public static void Sbuffer () {
+         StringBuffer sb = new StringBuffer("Java Basico Tecsup Lima");
+		
+		sb.insert(11," en");
+		sb.delete(21,sb.length());
+		
+		System.out.println(sb);
+
      }
 }
