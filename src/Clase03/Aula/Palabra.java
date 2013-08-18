@@ -13,7 +13,7 @@ public class Palabra implements Capitalizable {
      String texto;
     
     Palabra(String n){
-    texto=n.replaceAll(" ","");
+    this.texto=n.replaceAll(" ","");
     }
    
 
