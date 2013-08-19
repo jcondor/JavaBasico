@@ -21,6 +21,7 @@ public class Uso_Interface {
         for (int i=0; i<obj1.length;i++){
 	        System.out.println( "Texto " + i + ": " + obj1[i].cambiaMayuscula());
 	}
+        
     }
 
     
