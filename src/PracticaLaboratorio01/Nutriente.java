@@ -27,6 +27,15 @@ public class Nutriente {
     public void setCantidad(int cantidad) {
         this.cantidad = cantidad;
     }
+
+    public Nutriente(String nombre, int cantidad) {
+        this.nombre = nombre;
+        this.cantidad = cantidad;
+    }
+    
+    public void doImprime () {
+        System.out.println("Nutriente: "+this.nombre+": "+this.cantidad);
+    }
     
     
     

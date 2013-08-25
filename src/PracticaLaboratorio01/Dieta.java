@@ -9,6 +9,8 @@ package PracticaLaboratorio01;
  * @author PFR
  */
 public class Dieta {
-    
+    Alimento toma1;
+    Alimento toma2;
+    Alimento toma3;
     
 }
