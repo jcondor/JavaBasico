@@ -9,11 +9,11 @@ package PracticaLaboratorio01;
  * @author PFR
  */
 public class Alimento {
-    String Nombre;
-    String Unidad;
-    float Costo;
-    int ValorNutricional;
+    String nombre;
+    String unidad;
+    float costo;
+    int valorNutricional;
     
-    
+    Nutriente[] nutrientes;  
     
 }

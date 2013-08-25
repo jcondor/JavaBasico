@@ -9,23 +9,23 @@ package PracticaLaboratorio01;
  * @author PFR
  */
 public class Nutriente {
-    private String Nombre;
-    private int Cantidad;
+    private String nombre;
+    private int cantidad;
 
     public String getNombre() {
-        return Nombre;
+        return nombre;
     }
 
     public int getCantidad() {
-        return Cantidad;
+        return cantidad;
     }
 
-    public void setNombre(String Nombre) {
-        this.Nombre = Nombre;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
-    public void setCantidad(int Cantidad) {
-        this.Cantidad = Cantidad;
+    public void setCantidad(int cantidad) {
+        this.cantidad = cantidad;
     }
     
     
