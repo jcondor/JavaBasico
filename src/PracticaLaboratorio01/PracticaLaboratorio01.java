@@ -19,16 +19,13 @@ public class PracticaLaboratorio01 {
         Nutriente nutriente4 = new Nutriente ("Lactosa",489);
         Nutriente nutriente5 = new Nutriente ("Riboflamina",289);
         
-        nutriente1.doImprime();
-        nutriente2.doImprime();
-        nutriente3.doImprime();
-        
+               
         Nutriente[] nutrientes = {nutriente1, nutriente2};
         
         Alimento alimento1 = new Alimento ("Carne", "kg", 55.12f, 123, 3, 
                 nutrientes );
         Alimento alimento2 = new Alimento ("Verdura", "kg", 55.12f, 123, 3,
-                nutrientes);
+                new Nutriente[] {new Nutriente ("Riboflamina",44), new Nutriente ("Lactosa",489)} );
  /*       Alimento alimento3 = new Alimento ("Cereal", "kg", 55.12f, 123, 3, 
                 new Nutriente[1]);
         Alimento alimento4 = new Alimento ("Fruta", "kg", 55.12f, 123, 3, 

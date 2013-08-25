@@ -34,7 +34,7 @@ public class Nutriente {
     }
     
     public void doImprime () {
-        System.out.println("Nutriente: "+this.nombre+": "+this.cantidad);
+        System.out.println(" - Nutriente: "+this.nombre+": "+this.cantidad);
     }
     
     
