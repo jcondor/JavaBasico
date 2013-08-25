@@ -66,12 +66,17 @@ public class Aplicacion {
         
         
         Set<Animal> animales = new HashSet<>();
+        
+        Tigre tiger = new Tigre();
+        
+        
                
-        animales.add(new Tigre());
-        animales.add(new Tigre());
-        animales.add(new Tigre());
-        animales.add(new Tigre());
-        animales.add(new Tigre());
+        animales.add(tiger);
+        animales.add(tiger);
+        animales.add(tiger);
+        animales.add(tiger);
+        animales.add(tiger);
+        animales.add(tiger);
         animales.add(new Animal());
         animales.add(new Vaca());
         animales.add(new Gallina());
