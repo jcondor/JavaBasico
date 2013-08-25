@@ -10,11 +10,19 @@ package Clase04.Aula.Hilos;
  */
 public class AplicacionHilos {
     public static void main(String[] args) {
-        doHerencia();
+        doHerenciaImplements();
     }
     
     public static void doHerencia() {
         HiloHerencia hilo = new HiloHerencia();
         hilo.start();
+    }
+    
+    public static void doHerenciaImplements(){
+        HiloImplements hilo = new HiloImplements();
+        
+        Thread th = new Thread(hilo);
+                
+        th.start();
     }
 }
