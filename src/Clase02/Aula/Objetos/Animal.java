@@ -21,6 +21,6 @@ public class Animal {
     }
     
     public void HacerRuido() {
-        System.out.println("Muuuuuuuuuuu.........");
+        System.out.println("Yo no puedo hacer nada porque soy animal........");
     }
 }

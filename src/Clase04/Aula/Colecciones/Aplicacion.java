@@ -7,10 +7,12 @@ package Clase04.Aula.Colecciones;
 import Clase02.Aula.Objetos.Animal;
 import Clase02.Aula.Objetos.Gallina;
 import Clase02.Aula.Objetos.Tigre;
+import Clase02.Aula.Objetos.Vaca;
 import java.util.HashSet;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Set;
 
 /**
  *
@@ -59,16 +61,24 @@ public class Aplicacion {
     }
     
     public static void ejemploanimales() {
-        List<Animal> animales = new ArrayList<>();
         
+        
+        
+        
+        Set<Animal> animales = new HashSet<>();
+               
+        animales.add(new Tigre());
+        animales.add(new Tigre());
+        animales.add(new Tigre());
         animales.add(new Tigre());
         animales.add(new Tigre());
         animales.add(new Animal());
+        animales.add(new Vaca());
         animales.add(new Gallina());
         
         for (Animal ani : animales) {
             ani.HacerRuido();
         }
     }
-            
+          
 }
