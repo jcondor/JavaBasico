@@ -8,11 +8,9 @@ package Clase02.Aula.Objetos;
  *
  * @author PFR
  */
-public class Tigre extends Animal {
-    
+public class Gallina extends Animal {
     @Override
     public void HacerRuido() {
-        System.out.println("Grrrrrrrrrrr.........");
+        System.out.println("Cocorococo.........");
     }
-    
 }

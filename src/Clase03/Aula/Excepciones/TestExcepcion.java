@@ -10,7 +10,7 @@ package Clase03.Aula.Excepciones;
  */
 public class TestExcepcion {
     public static void main(String[] args) {
-        doEjemplo3();
+        doEjemplo4();
     }
     
     public static void doEjemplo1() {
@@ -45,9 +45,10 @@ public class TestExcepcion {
         } catch (NullPointerException e) {
             System.out.println("Error nulo");
         }
-
-
     }
 
+    public static void doEjemplo4() {
+        
+    }
 
 }
