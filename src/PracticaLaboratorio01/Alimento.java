@@ -27,8 +27,8 @@ public class Alimento {
     
     public void doImprime () {
         System.out.println("Alimento: "+this.nombre+": "+this.unidad+": "+this.costo+": "+this.valorNutricional);
-  //      for (int i = 0; i < this.numeroNutrientes; i++) {
-  //          this.nutrientes[i].doImprime();
-  //      }
+        for (int i = 0; i < this.nutrientes.length; i++) {
+            this.nutrientes[i].doImprime();
+        }
     }
 }

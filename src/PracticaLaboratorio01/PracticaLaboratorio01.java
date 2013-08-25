@@ -23,22 +23,21 @@ public class PracticaLaboratorio01 {
         nutriente2.doImprime();
         nutriente3.doImprime();
         
+        Nutriente[] nutrientes = {nutriente1, nutriente2};
+        
         Alimento alimento1 = new Alimento ("Carne", "kg", 55.12f, 123, 3, 
-                new Nutriente[1]);
-        Alimento alimento2 = new Alimento ("Verdura", "kg", 55.12f, 123, 3, 
-                new Nutriente[1]);
-        Alimento alimento3 = new Alimento ("Cereal", "kg", 55.12f, 123, 3, 
+                nutrientes );
+        Alimento alimento2 = new Alimento ("Verdura", "kg", 55.12f, 123, 3,
+                nutrientes);
+ /*       Alimento alimento3 = new Alimento ("Cereal", "kg", 55.12f, 123, 3, 
                 new Nutriente[1]);
         Alimento alimento4 = new Alimento ("Fruta", "kg", 55.12f, 123, 3, 
                 new Nutriente[1]);
         Alimento alimento5 = new Alimento ("Balanceado", "kg", 55.12f, 123, 3, 
                 new Nutriente[1]);
-        
+   */     
         alimento1.doImprime();
         alimento2.doImprime();
-        alimento3.doImprime();
-        alimento4.doImprime();
-        alimento5.doImprime();
         
         
         Animal animal1 = new Animal ("Margarita",2345,"Caballo",345.6f,"23/12/2011","");
