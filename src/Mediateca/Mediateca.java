@@ -38,8 +38,6 @@ public class Mediateca {
         System.out.println(audio.getDuracion());
         System.out.println(audio.Precio);
         
-      
-       
         System.out.println(" Hola ");
                 
         Persona persona = new Persona("Jose Condor", new Prestamo[] {new Prestamo(audio,12), new Prestamo(libro,3)});
