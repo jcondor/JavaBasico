@@ -38,17 +38,12 @@ public class Mediateca {
         System.out.println(audio.getDuracion());
         System.out.println(audio.Precio);
         
-        Prestamo prestamo1 = new Prestamo(audio,12);
-        Prestamo prestamo2 = new Prestamo(libro,3);
+      
+       
+        System.out.println(" Hola ");
+                
+        Persona persona = new Persona("Jose Condor", new Prestamo[] {new Prestamo(audio,12), new Prestamo(libro,3)});
         
-        System.out.println("  ");
-        
-        System.out.println(prestamo1.getValor());
-        System.out.println(prestamo2.getValor());
-        
-        Persona persona = new Persona("Jose Condor", new Prestamo[]
-                {prestamo1, prestamo2});
-        
-        System.out.println(persona.getValor());
+     //   System.out.println(persona.getValor());
     }
 }
