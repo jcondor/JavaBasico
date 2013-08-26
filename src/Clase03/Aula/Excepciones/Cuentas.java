@@ -16,8 +16,10 @@ public class Cuentas {
     }
     
     public void retirarDeCajero(double cuantoDesea) throws SaldoInsuficienteException {
-        if (this.saldoActual< cuantoDesea) {
-            throws new Exception("Error");
+    if (saldoActual < cuantoDesea) {
+            throw new SaldoInsuficienteException(saldoActual, cuantoDesea);
+            
         }
+            System.out.println("Monto Restante: "+ (saldoActual - cuantoDesea)); 
     }
 }
