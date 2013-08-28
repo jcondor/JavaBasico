@@ -25,7 +25,7 @@ public class Aplicacion {
         T1.Ejercicio32();
         
 //Ejercicio 5
-        System.out.println(T1.diasEnMes(4));
+        System.out.println(T1.diasEnMes(1));
         
     }
 }
