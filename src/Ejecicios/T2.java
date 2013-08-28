@@ -37,8 +37,14 @@ public class T2 {
          return matriz;
     }
      
+     public static void imprimeMatrizEntera(int[] matriz){
+         for (int i = 0; i < matriz.length; i++) {
+             System.out.println(i+": "+matriz[i]);
+         }
+     }
+     
      public static int[] Union(int[] a, int[] b) {
-         int[] ax = {1,2,3};
+         int[] c = new int[a.length+b.length];
          
          return a;
      }

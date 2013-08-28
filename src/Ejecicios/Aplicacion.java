@@ -29,15 +29,8 @@ public class Aplicacion {
         
 //Ejercicio T2.1        
       
-        int[] num1 = T2.OrdenaMayorMenor(new int[] {3,5,9,1,2,4,5,6});
-        for (int i = 0; i < num1.length; i++) {
-            System.out.println(num1[i]);
-        }
+        T2.imprimeMatrizEntera(T2.OrdenaMayorMenor(new int[] {3,5,9,1,2,4,5,6}));
+        T2.imprimeMatrizEntera(T2.OrdenaMenorMayor(new int[] {3,5,9,1,2,4,5,6}));
         
-        int[] num2 = T2.OrdenaMenorMayor(new int[] {3,5,9,1,2,4,5,6});
-        for (int i = 0; i < num2.length; i++) {
-            System.out.println(num2[i]);
-        }
- 
-    }
+     }
 }
