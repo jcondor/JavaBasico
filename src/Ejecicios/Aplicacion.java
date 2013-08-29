@@ -32,5 +32,7 @@ public class Aplicacion {
         T2.imprimeMatrizEntera(T2.OrdenaMayorMenor(new int[] {3,5,9,1,2,4,5,6}));
         T2.imprimeMatrizEntera(T2.OrdenaMenorMayor(new int[] {3,5,9,1,2,4,5,6}));
         
+        System.out.println(T2.numeroRepetidos(new int[] {6,2,3,4,2,3,7,8,9}));
+        
      }
 }
