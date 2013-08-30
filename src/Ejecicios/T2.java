@@ -147,5 +147,20 @@ public class T2 {
          }
          return nuevoArray(longitud,c);
      }
+     
+     public static int[] rotarDerecha(int[] matriz) {
+         int[] salida = new int[matriz.length];
+         for (int i = 0; i < matriz.length-1; i++) {
+             salida[i+1] = matriz[i];
+         }
+         salida[0] = matriz[matriz.length-1];
+         return salida;
+     }
 
+     public static int[] rotarPosicionesDerecha(int numero, int[] matriz) {
+         for (int i = 0; i < numero; i++) {
+             matriz = rotarDerecha(matriz);
+         }
+         return matriz;
+     }
 }
