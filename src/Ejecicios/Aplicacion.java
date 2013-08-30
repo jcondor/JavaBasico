@@ -10,7 +10,7 @@ package Ejecicios;
  */
 public class Aplicacion {
     public static void main(String[] args) {
-        
+      
 //Ejercicio T1.1
         System.out.println(T1.toFarenheit(75));
         
@@ -32,7 +32,8 @@ public class Aplicacion {
         T2.imprimeMatrizEntera(T2.OrdenaMayorMenor(new int[] {3,5,9,1,2,4,5,6}));
         T2.imprimeMatrizEntera(T2.OrdenaMenorMayor(new int[] {3,5,9,1,2,4,5,6}));
         
-        System.out.println(T2.numeroRepetidos(new int[] {6,2,3,4,2,3,7,8,9}));
-        
+        T2.imprimeMatrizEntera(T2.union(new int[] {3,5,9,1,2,4,5,6}, new int[] {8,2,1,8,2,9,4,5}));
+        T2.imprimeMatrizEntera(T2.interseccion(new int[] {3,5,9,1,2,4,5,6}, new int[] {8,2,1,8,2,9,4,5}));
+        T2.imprimeMatrizEntera(T2.menos(new int[] {3,5,9,1,2,4,5,6}, new int[] {8,2,1,8,2,9,4,5}));
      }
 }
