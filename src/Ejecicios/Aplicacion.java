@@ -29,11 +29,28 @@ public class Aplicacion {
         
 //Ejercicio T2.1        
       
-        T2.imprimeMatrizEntera(T2.OrdenaMayorMenor(new int[] {3,5,9,1,2,4,5,6}));
-        T2.imprimeMatrizEntera(T2.OrdenaMenorMayor(new int[] {3,5,9,1,2,4,5,6}));
         
+        System.out.println("TAREA 2");
+        System.out.println("------------------------------------");
+                
+        System.out.println("num = {3,5,9,1,2,4,5,6}");        
+        T2.imprimeMatrizEntera(T2.ordenaMayorMenor(new int[] {3,5,9,1,2,4,5,6}));
+        T2.imprimeMatrizEntera(T2.ordenaMenorMayor(new int[] {3,5,9,1,2,4,5,6}));
+        
+        System.out.println("a = {3,5,9,1,2,4,5,6}");
+        System.out.println("b = {8,2,1,8,2,9,4,5}");
+        System.out.println("");
+        
+        System.out.println("a union b = ");
         T2.imprimeMatrizEntera(T2.union(new int[] {3,5,9,1,2,4,5,6}, new int[] {8,2,1,8,2,9,4,5}));
+        System.out.println("");
+        
+        System.out.println("a interseccion b =");
         T2.imprimeMatrizEntera(T2.interseccion(new int[] {3,5,9,1,2,4,5,6}, new int[] {8,2,1,8,2,9,4,5}));
+        System.out.println("");
+        
+        System.out.println("a menos b =");
         T2.imprimeMatrizEntera(T2.menos(new int[] {3,5,9,1,2,4,5,6}, new int[] {8,2,1,8,2,9,4,5}));
+        
      }
 }

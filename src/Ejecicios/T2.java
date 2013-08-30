@@ -9,7 +9,7 @@ package Ejecicios;
  * @author USUARIO
  */
 public class T2 {
-    public static int[] OrdenaMayorMenor(int[] matriz){
+    public static int[] ordenaMayorMenor(int[] matriz){
         int aux;
         for (int i =0; i<matriz.length-1; i++){
             for (int j= i+1; j<matriz.length; j++){
@@ -23,7 +23,7 @@ public class T2 {
         return quitarRepetidosMatrizOrdenada(matriz);
     }
 
-     public static int[] OrdenaMenorMayor(int[] matriz){
+     public static int[] ordenaMenorMayor(int[] matriz){
         int aux;
         
         for (int i =0; i<matriz.length-1; i++){
@@ -39,9 +39,11 @@ public class T2 {
     }
      
      public static void imprimeMatrizEntera(int[] matriz){
+         System.out.print("[ ");
          for (int i = 0; i < matriz.length; i++) {
-             System.out.println(i+": "+matriz[i]);
+             System.out.print(matriz[i]+" ");
          }
+         System.out.println("]");
      }
      
      public static int numeroRepetidos(int[] matriz){
@@ -79,7 +81,7 @@ public class T2 {
                  c[i] = b[i-a.length];
              }
          }
-         return OrdenaMenorMayor(c);
+         return ordenaMenorMayor(c);
      }
      
      public static boolean estaIncluido(int numero, int[] matriz) {
@@ -94,8 +96,8 @@ public class T2 {
      }
      
      public static int[] interseccion(int[] a, int[] b) {
-         int[] aa = OrdenaMenorMayor(a);
-         int[] bb = OrdenaMenorMayor(b);
+         int[] aa = ordenaMenorMayor(a);
+         int[] bb = ordenaMenorMayor(b);
          
          int[] c = new int[Math.max(aa.length,bb.length )];
          int longitud = 0;
@@ -125,11 +127,11 @@ public class T2 {
              arreglo[i] = matriz[i];
          }
          return arreglo;
-     }
+     } 
      
      public static int[] menos(int[] a, int[] b) {
-         int[] aa = OrdenaMenorMayor(a);
-         int[] bb = OrdenaMenorMayor(b);
+         int[] aa = ordenaMenorMayor(a);
+         int[] bb = ordenaMenorMayor(b);
          
          int[] comun = interseccion(a,b);
          
