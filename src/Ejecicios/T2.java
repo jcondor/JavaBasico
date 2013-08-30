@@ -157,10 +157,26 @@ public class T2 {
          salida[0] = matriz[matriz.length-1];
          return salida;
      }
+     
+     public static int[] rotarIzquierda(int[] matriz) {
+         int[] salida = new int[matriz.length];
+         for (int i = 1; i < matriz.length; i++) {
+             salida[i-1] = matriz[i];
+         }
+         salida[matriz.length-1] = matriz[0];
+         return salida;
+     }
 
      public static int[] rotarPosicionesDerecha(int numero, int[] matriz) {
          for (int i = 0; i < numero; i++) {
              matriz = rotarDerecha(matriz);
+         }
+         return matriz;
+     }
+     
+     public static int[] rotarPosicionesIzquierda(int numero, int[] matriz) {
+         for (int i = 0; i < numero; i++) {
+             matriz = rotarIzquierda(matriz);
          }
          return matriz;
      }
