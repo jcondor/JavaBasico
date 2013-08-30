@@ -110,6 +110,7 @@ public class T2 {
                     }
                 }
 
+         
          } else {
              for (int i = 0; i < bb.length; i++) {
                     if (estaIncluido(bb[i],aa)) {

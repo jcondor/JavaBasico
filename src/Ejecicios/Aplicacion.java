@@ -71,7 +71,7 @@ public class Aplicacion {
         System.out.println("c = {3,5,9,1,2,4,5,6}");
         System.out.println("n=2");
         System.out.println();
-        System.out.println("Areglo rotado a la derecha");
+        System.out.println("Arreglo rotado a la derecha");
         T2.imprimeMatrizEntera(T2.rotarPosicionesDerecha(2,new int[] {3,5,9,1,2,4,5,6}));
      }
 }
