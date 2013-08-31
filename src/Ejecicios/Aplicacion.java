@@ -4,6 +4,8 @@
  */
 package Ejecicios;
 
+import Ejecicios.T2Ejercicio4.Casa;
+
 /**
  *
  * @author USUARIO
