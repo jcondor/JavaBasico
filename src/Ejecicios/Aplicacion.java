@@ -20,14 +20,15 @@ public class Aplicacion {
         System.out.println();
         System.out.println("Ejercicio 2");
         System.out.println("===========================");
-        System.out.println("( Falso implica Falso         ) = "+T1.implica(false, false));
-        System.out.println("( Falso implica Verdadero     ) = "+T1.implica(false, true));
-        System.out.println("( Verdadero implica Falso     ) = "+T1.implica(true, false));
-        System.out.println("( Verdadero implica Verdadero ) = "+T1.implica(true, true));
+        System.out.println("( Falso implica Falso         ) = "+T1.implica(false,false));
+        System.out.println("( Falso implica Verdadero     ) = "+T1.implica(false,true));
+        System.out.println("( Verdadero implica Falso     ) = "+T1.implica(true,false));
+        System.out.println("( Verdadero implica Verdadero ) = "+T1.implica(true,true));
         System.out.println();
         System.out.println("Ejercicio 3");
         System.out.println("===========================");
         T1.Ejercicio31();
+        System.out.println();
         T1.Ejercicio32();
         System.out.println();
         System.out.println("Ejercicio 5");
@@ -44,6 +45,7 @@ public class Aplicacion {
         System.out.println();
         System.out.println("Arreglo n ordenado de mayor a menor");
         T2.imprimeMatrizEntera(T2.ordenaMayorMenor(new int[] {3,5,9,1,2,4,5,6}));
+        System.out.println();
         System.out.println("Arreglo n ordenado de menor a mayor");
         T2.imprimeMatrizEntera(T2.ordenaMenorMayor(new int[] {3,5,9,1,2,4,5,6}));
         System.out.println();
