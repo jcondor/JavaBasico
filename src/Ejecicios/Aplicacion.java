@@ -35,6 +35,10 @@ public class Aplicacion {
         System.out.println("===========================");
         System.out.println("Número de Dias en Marzo = "+T1.diasEnMes(2));
         System.out.println();
+        System.out.println("Ejercicio 6");
+        System.out.println("===========================");
+        T1.imprimePares(22, 43);
+        System.out.println();
         
         System.out.println("TAREA 2");
         System.out.println("------------------------------------");
