@@ -76,5 +76,9 @@ public class Aplicacion {
         System.out.println();
         System.out.println("Arreglo rotado a la izquierda");
         T2.imprimeMatrizEntera(T2.rotarPosicionesIzquierda(2,new int[] {3,5,9,1,2,4,5,6}));
+        System.out.println();
+        System.out.println("Ejercicio 4");
+        System.out.println("===========================");
+        Casa hogar = new Casa();
      }
 }
