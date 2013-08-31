@@ -14,12 +14,10 @@ public class Aplicacion {
     public static void main(String[] args) {
         System.out.println("TAREA 1");
         System.out.println("------------------------------------");      
-//Ejercicio T1.1
         System.out.println("Ejercicio 1");
         System.out.println("===========================");
         System.out.println("75°C = "+T1.toFarenheit(75)+"°F");
         System.out.println();
-//Ejercicio T1.2       
         System.out.println("Ejercicio 2");
         System.out.println("===========================");
         System.out.println("( Falso implica Falso         ) = "+T1.implica(false, false));
@@ -27,20 +25,15 @@ public class Aplicacion {
         System.out.println("( Verdadero implica Falso     ) = "+T1.implica(true, false));
         System.out.println("( Verdadero implica Verdadero ) = "+T1.implica(true, true));
         System.out.println();
-//Ejercicio T1.3
         System.out.println("Ejercicio 3");
         System.out.println("===========================");
         T1.Ejercicio31();
         T1.Ejercicio32();
         System.out.println();
-        
-//Ejercicio T1.5
         System.out.println("Ejercicio 5");
         System.out.println("===========================");
         System.out.println("Número de Dias en Marzo = "+T1.diasEnMes(2));
         System.out.println();
-        
-//Ejercicio T2.1        
         
         System.out.println("TAREA 2");
         System.out.println("------------------------------------");
