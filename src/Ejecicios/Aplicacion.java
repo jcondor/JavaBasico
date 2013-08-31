@@ -22,10 +22,10 @@ public class Aplicacion {
 //Ejercicio T1.2       
         System.out.println("Ejercicio 2");
         System.out.println("===========================");
-        System.out.println("( Falso implica Falso         = "+T1.implica(false, false));
-        System.out.println("( Falso implica Verdadero     = "+T1.implica(false, true));
-        System.out.println("( Verdadero implica Falso     = "+T1.implica(true, false));
-        System.out.println("( Verdadero implica Verdadero = "+T1.implica(true, true));
+        System.out.println("( Falso implica Falso         ) = "+T1.implica(false, false));
+        System.out.println("( Falso implica Verdadero     ) = "+T1.implica(false, true));
+        System.out.println("( Verdadero implica Falso     ) = "+T1.implica(true, false));
+        System.out.println("( Verdadero implica Verdadero ) = "+T1.implica(true, true));
         System.out.println();
 //Ejercicio T1.3
         System.out.println("Ejercicio 3");
