@@ -1,4 +1,4 @@
-package Mediateca;
+package Tarea1;
 
 
 public class Mediateca {

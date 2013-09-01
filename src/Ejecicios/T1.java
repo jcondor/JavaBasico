@@ -48,7 +48,7 @@ public class T1 {
     public static void imprimePares(int a, int b) {
         System.out.println("Los números pares entre "+a+" y "+b+" son:");
         System.out.print("{ ");
-        for (int i = ((a+1)/2)*2; i < (((b)/2)*2)+2; i=i+2) {
+        for (int i = ((a+1)/2)*2; i < (((b)/2)*2)+2; i+=2) {
             System.out.print(i+" ");
         }
         System.out.println("}");

@@ -1,4 +1,4 @@
-package Mediateca;
+package Tarea1;
 
 /*
  * To change this template, choose Tools | Templates
