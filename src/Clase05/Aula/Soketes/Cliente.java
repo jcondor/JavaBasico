@@ -47,7 +47,7 @@ private String host;
 	}
         
     public static void main(String[] args) {
-        Cliente c = new Cliente("192.168.19.254", 9999);
+        Cliente c = new Cliente("localhost", 9999);
         c.doConectar();
     }
 }
