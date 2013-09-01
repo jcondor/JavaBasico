@@ -11,6 +11,6 @@ package Tarea2.Rango;
 public class FueraDeRangoException extends Exception {
 
     public FueraDeRangoException(double valor, double desde, double hasta) {
-        super("[ ERROR ] El Valor "+valor+ " NO se enceuntra en el rango [ "+desde+" , "+hasta+" ]");
+        super("[ ERROR ] El Valor "+valor+ " NO se encuentra en el rango [ "+desde+" , "+hasta+" ]");
     }
 }

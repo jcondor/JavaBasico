@@ -11,7 +11,7 @@ package Tarea2.Rango;
 public class Aplicacion {
     public static void main(String[] args) throws FueraDeRangoException {
         double valor = -12.34;
-        double desde = 0.34;
+        double desde = 145.25;
         double hasta = 245.56;
         
         try {
