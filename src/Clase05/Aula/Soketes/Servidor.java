@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package Clase5.Aula.Soketes;
+package Clase05.Aula.Soketes;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

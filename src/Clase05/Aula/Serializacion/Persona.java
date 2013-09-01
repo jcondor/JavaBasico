@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package Clase5.Aula.Serializacion;
+package Clase05.Aula.Serializacion;
 
 import java.io.Serializable;
 

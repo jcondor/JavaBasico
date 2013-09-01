@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package Clase5.Aula.xFiles;
+package Clase05.Aula.xFiles;
 
 import java.io.File;
 import java.io.IOException;

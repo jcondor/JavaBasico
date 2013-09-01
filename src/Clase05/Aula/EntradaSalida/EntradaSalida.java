@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package Clase5.Aula.EntradaSalida;
+package Clase05.Aula.EntradaSalida;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
