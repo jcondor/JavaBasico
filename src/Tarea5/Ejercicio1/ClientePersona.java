@@ -9,8 +9,18 @@ package Tarea5.Ejercicio1;
  * @author USUARIO
  */
 public class ClientePersona extends Cliente {
+    private int tarjetaCredito;
 
-    public ClientePersona(String nombre, String direccion, float limiteCredito) {
-        super(nombre, direccion, limiteCredito);
+    public void setTarjetaCredito(int tarjetaCredito) {
+        this.tarjetaCredito = tarjetaCredito;
+    }
+        
+    public int getTarjetaCredito() {
+        return tarjetaCredito;
+    }
+
+    public ClientePersona(String nombre, String direccion, int tarjetaCredito) {
+        super(nombre, direccion, 0.00f);
+        this.tarjetaCredito = tarjetaCredito;
     }
 }
