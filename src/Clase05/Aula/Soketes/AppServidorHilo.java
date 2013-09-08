@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package Clase05.Aula.Profe;
+package Clase05.Aula.Soketes;
 
 import java.net.ServerSocket;
 import java.net.Socket;
