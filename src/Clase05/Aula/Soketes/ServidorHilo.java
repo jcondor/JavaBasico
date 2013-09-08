@@ -28,10 +28,37 @@ public class ServidorHilo extends Thread {
             PrintWriter out = new PrintWriter(cliente.getOutputStream(), true);
             BufferedReader in = new BufferedReader(new InputStreamReader(cliente.getInputStream()));
 
-            out.println("SERVIDOR PROFESOR: Bienvenido, ¿Cómo te llamas? ");
-
-            String resp2 = in.readLine();
-            System.out.println(resp2+" "+new Date());
+            out.println("Calculadora");
+            
+            Integer operacion = Integer.parseInt(in.readLine());
+            Integer parametro1 = Integer.parseInt(in.readLine());
+            Integer parametro2 = Integer.parseInt(in.readLine());
+            
+            Integer respuesta;
+            
+            switch (operacion) {
+                case 1:respuesta = parametro1 + parametro2;
+                    break;
+                  
+                case 2:respuesta = parametro1 - parametro2;    
+                    break;
+                    
+                case 3:respuesta = parametro1 * parametro2;    
+                    break;
+                    
+                case 4:respuesta = parametro1 / parametro2;    
+                break;
+                    
+                default: respuesta = 0;
+                    break;
+                    
+            
+        }
+            
+            
+            
+            out.println(respuesta);
+            
             in.close();
             out.close();
             cliente.close();
@@ -42,5 +69,9 @@ public class ServidorHilo extends Thread {
         }
 
 
+    }
+
+    private void swich() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
