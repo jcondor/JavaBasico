@@ -9,5 +9,10 @@ package Tarea5.Ejercicio1;
  * @author USUARIO
  */
 public class ClienteCorporativo extends Cliente {
+
+    public ClienteCorporativo(String nombre, String direccion, float limiteCredito) {
+        super(nombre, direccion, limiteCredito);
+    }
+
     
 }

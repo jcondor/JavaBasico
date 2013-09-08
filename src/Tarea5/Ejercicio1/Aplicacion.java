@@ -10,7 +10,7 @@ package Tarea5.Ejercicio1;
  */
 public class Aplicacion {
     public static void main(String[] args) {
-        ClientePersona persona = new ClientePersona();
-        ClienteCorporativo corporativo = new ClienteCorporativo();
+    //    ClientePersona persona = new ClientePersona();
+     //   ClienteCorporativo corporativo = new ClienteCorporativo();
     }
 }

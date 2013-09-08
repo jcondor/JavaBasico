@@ -36,7 +36,10 @@ public class Cliente {
     public void setLimiteCredito(float limiteCredito) {
         this.limiteCredito = limiteCredito;
     }
-    
-    
-    
+
+    public Cliente(String nombre, String direccion, float limiteCredito) {
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.limiteCredito = limiteCredito;
+    }
 }
