@@ -26,7 +26,7 @@ public class ClientePersona extends Cliente {
 
     @Override
     public String toString() {
-        return "ClientePersona{" + "nombre= " + super.getNombre() + ", direccion=" + super.getDireccion()+ ", tarjetaCredito=" + tarjetaCredito + '}';
+        return "ClientePersona{" + "nombre=" + super.getNombre() + ", direccion=" + super.getDireccion()+ ", tarjetaCredito=" + tarjetaCredito + '}';
     }
     
     
