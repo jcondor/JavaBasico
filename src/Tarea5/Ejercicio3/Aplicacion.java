@@ -10,7 +10,7 @@ package Tarea5.Ejercicio3;
  */
 public class Aplicacion {
     public static void main(String[] args) {
-        Hilo hilo = new Hilo(1, 100, 2000, 20);
+        Hilo hilo = new Hilo(1, 100, 1000, 7);
         hilo.start();
     }
 }
